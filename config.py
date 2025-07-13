@@ -39,8 +39,8 @@ API_ID = int(os.getenv("API_ID"))
 API_HASH = os.getenv("API_HASH")
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 OWNER_ID = int(os.getenv("OWNER_ID", None))
-OWNER_USERNAME = os.getenv("OWNER_USERNAME", "WTF_WhyMeeh")
-BOT_USERNAME = os.getenv("BOT_USERNAME", "ShrutixMusicBot")
+OWNER_USERNAME = os.getenv("OWNER_USERNAME", "VNI0X")
+BOT_USERNAME = os.getenv("BOT_USERNAME", "NOBITA_SONG_BOT")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🛠️ Database & Deployment Configs
@@ -55,7 +55,7 @@ HEROKU_API_KEY = os.getenv("HEROKU_API_KEY")
 # 🔄 Git & Update Settings
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/NoxxOP/ShrutiMusic")
+UPSTREAM_REPO = os.getenv("UPSTREAM_REPO", "https://github.com/TANYA-SINGH-VNS-UP/ShrutiMusic")
 UPSTREAM_BRANCH = os.getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 
@@ -63,8 +63,8 @@ GIT_TOKEN = os.getenv("GIT_TOKEN", None)
 # 🔗 Support Links
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/ShrutiBots")
-SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/ShrutiBotSupport")
+SUPPORT_CHANNEL = os.getenv("SUPPORT_CHANNEL", "https://t.me/HEROKU_CLUB")
+SUPPORT_GROUP = os.getenv("SUPPORT_GROUP", "https://t.me/NOBITA_SUPPORT")
 PRIVACY_LINK = os.getenv("PRIVACY_LINK", "https://graph.org/Privacy-Policy-05-01-30")
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -108,18 +108,18 @@ AUTO_LEAVING_ASSISTANT = bool(os.getenv("AUTO_LEAVING_ASSISTANT", False))
 # 🖼️ Image URLs (Can be customized)
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-START_IMG_URL = os.getenv("START_IMG_URL", "https://files.catbox.moe/eehxb4.jpg")
-PING_IMG_URL = os.getenv("PING_IMG_URL", "https://files.catbox.moe/eehxb4.jpg")
-PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/eehxb4.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/eehxb4.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/eehxb4.jpg"
+START_IMG_URL = os.getenv("START_IMG_URL", "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg")
+PING_IMG_URL = os.getenv("PING_IMG_URL", "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg")
+PLAYLIST_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+STATS_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+STREAM_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/306e9c0d286993e8f395a-b3d7293dc5ded1f91b.jpg"
 
 # ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 # 🔐 User & Bot State Stores

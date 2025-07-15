@@ -101,7 +101,7 @@ sudo apt-get install -y nodejs
 
 
 ```bash
-git clone https://github.com/NoxxOP/ShrutiMusic
+git clone https://github.com/TANYA-SINGH-VNS-UP/ShrutiMusic
 cd ShrutiMusic
 ```
 
